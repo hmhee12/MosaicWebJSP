@@ -115,4 +115,22 @@
 	
 	-
 	
+8. Deploy 방법 
+	
+	- gradle war
+	- build/libs/MosaicWeb ~~~~ .war
+	- cp MosaicWeb.war 
+		C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps 복사함
+	- Firefox --> http://localhost/MosaicWeb/index.html
+	
+9. Gluon 설정 
+
+	- cp FXTempate/src/* MosaicWeb/src
+	- merge FXTempate/build.gradle MosaicWeb/build.gradle
+	- marge com.hybrid.fx.MainApplication / com.hybrid.MosaicApplication 
+		->> spring boot + gluon start
+		->> spring boot + gluon stop
+		->> primaryView 에 WebView
+		
+	
 	
