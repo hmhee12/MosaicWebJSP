@@ -113,7 +113,6 @@
 	
 	- notepad src/main/webapp/dept.jsp 
 	
-	-
 	
 8. Deploy 방법 
 	
