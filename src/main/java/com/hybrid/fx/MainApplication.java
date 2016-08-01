@@ -55,6 +55,8 @@ public class MainApplication extends ParticleApplication {
 		});
     }
     
+    
+    
     public static ConfigurableApplicationContext ctx;
     public static void main(String[] args) {
     	/*
