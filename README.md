@@ -132,7 +132,14 @@
 		->> primaryView 에 WebView
 
 
+10.SiteMesh 설정 
 
-
+	- mvnrepository.com -> search : sitemesh
+	- build.gradle dependencies 추가
+		->> compile group: 'org.sitemesh', name: 'sitemesh', version: '3.0.1' 추가
 	
-	
+	- com.hybrid.config -> 
+		SiteMeshFilterConfig.java ->  
+			builder.addDecoratorPath("/deco/*", "WEB-INF/deco/maindeco.jsp") 추가  설정파일 역할	
+			
+	-		
