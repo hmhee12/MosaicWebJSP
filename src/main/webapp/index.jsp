@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +10,7 @@
 
 <h1>설정확인</h1>
 
+<hr>
 <ol>
 	<li><a href="Hello.html"> HTML 확인 </a></li>
 	<li><a href="Hello.jsp"> JSP 확인</a></li>
@@ -18,6 +20,10 @@
 	<li><a href="chap05/readinitParameter.jsp"> readinitParameter  확인 </a></li>
 	<li><a href="chap05/usePageContext.jsp"> usePageContext  확인 </a></li>
 	<li><a href="chap05/veiwServerInfo.jsp"> veiwServerInfo  확인 </a></li>
+	<li><a href="cookie/dept.jsp"> 쿠키 로그인 </a></li>
+	<li><a href="session/dept.jsp"> 세쇼온 로그인 </a></li>
+	<li><a href="logout.jsp"> logout 화면 </a></li>
+	
 </ol>
 
 </body>

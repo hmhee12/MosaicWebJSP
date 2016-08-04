@@ -5,18 +5,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>loginForm.jsp</title>
+<title>logout.jsp</title>
 </head>
 <body>
-<h1>로그인</h1>
-<form action="loginProcess.jsp" method="post">
-	<label>ID : </label>
-	<input type="text" name="id"/><br>
-	<label>PW : </label>
-	<input type="password" name="pw"/><br>
-	
+
+<h1>로그아웃</h1>
+<form action="/logout" method="post"> 
+	<input type="submit" value="로그아웃"/>
 	<sec:csrfInput/>
-	<input type="submit" value="login"/><br>
 </form>
 
 </body>
