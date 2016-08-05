@@ -148,4 +148,9 @@
 		->>compile('org.springframework.boot:spring-boot-starter-security')
 		   compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.0.4.RELEASE'
 		
-					
+12.JSTL 설정 
+
+	- mvnrepository.com -> search : jstl			
+	- build.gradle dependencies 추가				
+		->> compile group: 'javax.servlet', name: 'jstl', version: '1.2'
+	
