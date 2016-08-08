@@ -28,7 +28,7 @@
 // 	}
 %>
 
-<%
+<%	
 	ApplicationContext ctx = WebApplicationContextUtils.getRequiredWebApplicationContext(this.getServletContext());
 	DeptMapper mapper = ctx.getBean(DeptMapper.class); 
 	mapper.delete(65);
